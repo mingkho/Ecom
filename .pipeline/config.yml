@@ -13,7 +13,7 @@ stages:
   Acceptance:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.eu10.hana.ondemand.com"
-    cfOrg: "lcap_mk_prod"
+    cfOrg: "lcap-mk-prod-org"
     cfSpace: "dev"
     cfCredentialsId: "my-credential-cf"
     uiVeri5ExecuteTests: false
