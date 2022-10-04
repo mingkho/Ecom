@@ -1,7 +1,7 @@
 {
-  "xsappname": "ESPM",
-  "tenant-mode": "dedicated",
   "scopes": [],
   "attributes": [],
-  "role-templates": []
+  "role-templates": [],
+  "xsappname": "ESPM",
+  "tenant-mode": "dedicated"
 }
