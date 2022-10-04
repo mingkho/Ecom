@@ -1,0 +1,32 @@
+{
+    "name": "ESPM",
+    "version": "1.0.0",
+    "description": "",
+    "dependencies": {
+        "@sap/cds": "^5",
+        "express": "^4",
+        "hdb": "^0.18.3",
+        "passport": "^0.6.0"
+    },
+    "devDependencies": {
+        "sqlite3": "^5.0.2"
+    },
+    "scripts": {
+        "start": "npx cds run"
+    },
+    "cds": {
+        "requires": {
+            "db": {
+                "kind": "sql"
+            }
+        },
+        "uaa": {
+            "kind": "xsuaa",
+            "credentials": {}
+        },
+        "hana": {
+            "deploy-format": "hdbtable"
+        }
+    },
+    "lcap": true
+}
