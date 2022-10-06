@@ -1,4 +1,4 @@
-# Enterprise Sales Procurement Model Application 2
+# Enterprise Sales Procurement Model Application 3
 
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-lcnc-espm)](https://api.reuse.software/info/github.com/SAP-samples/btp-lcnc-espm)
 
